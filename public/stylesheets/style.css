@@ -1,0 +1,63 @@
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: white;
+  background-color: #2e2e2e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.title {
+  text-decoration: overline;
+}
+
+.paper {
+  border-style: dashed;
+  border-width: 2px;
+  border-color: magenta;
+}
+
+.header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  background-color: cyan;
+}
+
+.headLink {
+  color: black;
+  font-size: x-large;
+  text-decoration: none;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-right-width: 1px;
+  border-right-color: black;
+  border-right-style: solid;
+}
+
+.headLinkEnd {
+  color: black;
+  font-size: x-large;
+  text-decoration: none;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
